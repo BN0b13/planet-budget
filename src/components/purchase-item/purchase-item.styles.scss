@@ -1,0 +1,36 @@
+.single-item {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 3px;
+
+    .spinnerDiv {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .btnContainer {
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    
+    
+        .editBtn {
+            margin: 3px;
+        }
+    }
+    
+    .purchaseTxt{
+        margin: 6px 0;
+    }
+
+    .purchaseItemBtnDiv {
+        margin: auto;
+
+        .purchaseItemBtn {
+            margin: 0 3px;
+        }
+    }
+}

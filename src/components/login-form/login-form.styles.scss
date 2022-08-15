@@ -1,0 +1,31 @@
+.login-form-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .logo {
+    height: 300px;
+    width: 300px;
+  }
+
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .input {
+      margin: 5px;
+      padding: 5px;
+    }
+
+    .inlineBtn {
+      display: flex;
+    }
+
+    .btn {
+      margin: 5px;
+    }
+  }
+}

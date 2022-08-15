@@ -1,0 +1,38 @@
+.sign-up-form-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    margin-top: 20px;
+    padding: 5px;
+
+    .sign-up-form-title {
+      text-align: center;
+    }
+  
+    .sign-up-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      .input {
+        margin: 3px;
+        padding: 2px;
+      }
+  
+      .inlineBtn {
+        margin-top: 10px;
+        display: flex;
+      }
+
+      .recaptcha {
+        margin-top: 10px;
+      }
+
+      .btn {
+        margin: 5px;
+      }
+    }
+  }

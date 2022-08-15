@@ -1,0 +1,31 @@
+.profile-content {
+    width: 80%;
+    margin: auto;
+
+    .profile-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .profile-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        width: 400px;
+        margin: auto;
+
+        .profile-form-input {
+            margin: 10px 0;
+        }
+        
+        .spinnerDiv {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

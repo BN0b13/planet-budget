@@ -1,0 +1,24 @@
+.single-item {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 3px;
+    width: 100%;
+
+    .btnContainer {
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+
+        .spinnerDiv {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .addBtn {
+            margin: 0 3px;
+        }
+    }
+}
